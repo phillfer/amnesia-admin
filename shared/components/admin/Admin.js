@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import Helmet from 'react-helmet';
+import './Admin.scss';
 
-import config from '../../../config';
 import Page from '../common/Page';
 
 export default class Admin extends PureComponent {
@@ -9,12 +9,20 @@ export default class Admin extends PureComponent {
     return (
       <Page>
         <Helmet>
-          <title>Admin</title>
+          <title>Amnesia - Gerenciamento de Decks</title>
         </Helmet>
 
-        <h2>{config('welcomeMessage')}</h2>
-
-        <p>ON ADMIN!!!</p>
+        <div styleName="admin">
+          <section>
+            <h2>Desck do Round 1</h2>
+          </section>
+          <section>
+            <h2>Desck do Round 2</h2>
+          </section>
+          <section>
+            <h2>Desck do Round 3</h2>
+          </section>
+        </div>
       </Page>
     );
   }

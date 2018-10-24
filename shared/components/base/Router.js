@@ -6,9 +6,9 @@ import PrivateRoute from '../auth/base/Private.route';
 import NotAuthRoute from '../auth/base/NotAuth.route';
 import * as routes from '../../constants/routes';
 
-import SignIn from '../auth/signin/SignIn.async';
-import Register from '../auth/register/Register.async';
-import Admin from '../admin/Admin.async';
+import SignIn from '../auth/signin/SignIn.container';
+import Register from '../auth/register/Register.container';
+import Admin from '../admin/Admin';
 import NotFound from '../errors/NotFound.async';
 
 function Router() {
@@ -16,7 +16,7 @@ function Router() {
     <Switch>
       <NotAuthRoute path={routes.REGISTER} component={Register} />
       <NotAuthRoute path={routes.SIGN_IN} component={SignIn} />
-      <PrivateRoute path={routes.ADMIN} component={Admin} />
+      <Route path={routes.ADMIN} component={Admin} />
       <Redirect from={routes.HOME} to={routes.ADMIN} />
       <Route component={NotFound} />
     </Switch>

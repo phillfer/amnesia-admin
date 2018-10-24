@@ -1,8 +1,9 @@
 import React from 'react';
-import logo from '../../assets/images/minato.png';
+import logo from '../../assets/images/logo-horizontal.svg';
+import './Logo.scss';
 
 function Logo() {
-  return <img src={logo} alt="Logo" style={{ width: '100px' }} />;
+  return <img src={logo} alt="Logo" styleName="logo" />;
 }
 
 export default Logo;

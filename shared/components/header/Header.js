@@ -1,17 +1,12 @@
 import React from 'react';
 import Logo from './Logo';
-import Menu from './Menu';
+import './Header.scss';
 
 function Header() {
   return (
-    <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
+    <div styleName="header">
       <Logo />
-      <h1>Minato</h1>
-      <strong>
-        Ferreri
-        {"'"}s take on Universally
-      </strong>
-      <Menu />
+      <h1>Gerenciamento de decks</h1>
     </div>
   );
 }
