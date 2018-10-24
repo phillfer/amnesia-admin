@@ -1,0 +1,23 @@
+.textarea {
+  textarea {
+    border: none;
+    outline: 0 !important;
+    line-height: 24px;
+    max-height: 144px;
+    margin-top: 24px;
+    width: 90%;
+    height: 192px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    resize: none;
+    padding-right: 8px;
+    box-sizing: content-box;
+    transition: all 0.3s ease;
+    color: $blue;
+    background-color: transparent;
+  }
+
+  &.light textarea {
+    color: $white;
+  }
+}

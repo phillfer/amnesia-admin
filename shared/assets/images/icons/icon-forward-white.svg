@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Form / Icon / Forward / White</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="16" cy="16" r="16"></circle>
+    </defs>
+    <g id="Form-/-Icon-/-Forward-/-White" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="btnVoltar">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group-2" mask="url(#mask-2)" stroke="#FFFFFF" stroke-linecap="round" stroke-width="1.5">
+                <g transform="translate(16.000000, 16.000000) scale(-1, 1) translate(-16.000000, -16.000000) translate(11.000000, 12.000000)">
+                    <path d="M9.5,4 L0.236842105,4" id="Line-3"></path>
+                    <path d="M4.45369344,0.437045249 L0.277777778,3.77777778" id="Line-3-Copy"></path>
+                    <path d="M4.45369344,4.43704525 L0.277777778,7.77777778" id="Line-3-Copy-2" transform="translate(2.500000, 6.000000) scale(1, -1) translate(-2.500000, -6.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+.clear-button {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  animation: fadeInUp 0.2s ease;
+
+  > img {
+    width: 32px;
+    height: 32px;
+  }
+}

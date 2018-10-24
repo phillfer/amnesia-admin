@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Form / Icon / Company / Light</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Form-/-Icon-/-Company-/-Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.16">
+        <g id="if_icon-138-certificate_314836" transform="translate(6.000000, 7.000000)" fill-rule="nonzero">
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="1.5" x="1.75" y="8.75" width="15.5" height="8.5" rx="2"></rect>
+            <rect id="Rectangle-2" fill="#FFFFFF" x="8" y="13" width="3" height="5" rx="1"></rect>
+            <rect id="Rectangle-Copy-2" stroke="#FFFFFF" stroke-width="1.5" x="3.75" y="0.75" width="11.5" height="2.5" rx="1.25"></rect>
+            <path d="M3.58032254,3.25 C3.49060832,3.25 3.40777246,3.29807152 3.36326175,3.37596527 L0.506118893,8.37596527 C0.484533508,8.41373969 0.473179678,8.45649327 0.473179678,8.5 C0.473179678,8.63807119 0.585108491,8.75 0.723179678,8.75 L18.2768203,8.75 C18.3203271,8.75 18.3630806,8.73864617 18.4008551,8.71706079 C18.5207344,8.64855829 18.5623836,8.49584463 18.4938811,8.37596527 L15.6367383,3.37596527 C15.5922275,3.29807152 15.5093917,3.25 15.4196775,3.25 L3.58032254,3.25 Z" id="Rectangle-Copy" stroke="#FFFFFF" stroke-width="1.5"></path>
+        </g>
+    </g>
+</svg>

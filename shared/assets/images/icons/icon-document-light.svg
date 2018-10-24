@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Form / Icon / Document / Light</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Form-/-Icon-/-Document-/-Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.16">
+        <g id="if_icon-138-certificate_314836" transform="translate(6.000000, 6.000000)" fill-rule="nonzero">
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="1.5" x="0.75" y="0.75" width="18.5" height="15.5" rx="3"></rect>
+            <rect id="Rectangle-9" fill="#FFFFFF" x="4" y="5" width="12" height="1" rx="0.5"></rect>
+            <rect id="Rectangle-9-Copy" fill="#FFFFFF" x="12" y="8" width="4" height="1" rx="0.5"></rect>
+            <rect id="Rectangle-9-Copy-2" fill="#FFFFFF" x="14" y="11" width="2" height="1" rx="0.5"></rect>
+            <polygon id="Path-2" stroke="#FFFFFF" fill="#1B2539" points="5 13.7473493 5 18.8431446 6.875 17.5082423 8.75 18.8431446 8.75 13.7473493"></polygon>
+            <circle id="Oval" stroke="#FFFFFF" fill="#1B2539" cx="7" cy="12" r="3"></circle>
+        </g>
+    </g>
+</svg>

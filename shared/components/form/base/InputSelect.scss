@@ -1,0 +1,120 @@
+.select {
+  position: relative;
+  width: 100%;
+
+  & ~ button {
+    display: none !important;
+  }
+
+  &.isnew {
+    color: $white;
+  }
+
+  &.light {
+    @include color-opacity($white, 0.16);
+
+    label {
+      @include color-opacity($white, 0.16);
+    }
+
+    .control {
+      color: $white;
+      .single-value {
+        color: $white;
+      }
+    }
+
+    .indicators {
+      .dropdown-indicator {
+        svg {
+          @include fill-opacity($white, 0.16);
+        }
+      }
+    }
+  }
+
+  label {
+    @include color-opacity($blue, 0.16);
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 24px;
+    top: 26px;
+    transition: 0.2s ease all;
+  }
+
+  .control {
+    font-family: $proxima-medium;
+    color: $blue-dark;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    width: 100%;
+    height: 32px;
+    min-height: initial;
+    margin-top: 20px;
+
+    .single-value {
+      margin: 0;
+      color: $blue-dark;
+    }
+
+    .value-container {
+      padding: 0;
+    }
+
+    input {
+      font-family: $proxima-medium;
+      height: 26px;
+    }
+
+    &.control--is-focused {
+      border: none;
+      box-shadow: none;
+    }
+  }
+
+  .menu {
+    margin-top: 0;
+    margin-left: -10px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.16);
+    outline: 0;
+    overflow: hidden;
+
+    .menu-list {
+      .option {
+        line-height: 40px;
+        height: 40px;
+        padding: 0 15px;
+        color: $blue-dark;
+
+        &:hover {
+          background-color: $white;
+          cursor: pointer;
+        }
+      }
+      .option--is-focused {
+        background-color: $black-8;
+      }
+    }
+  }
+
+  .indicators {
+    .dropdown-indicator {
+      cursor: pointer;
+      padding: 8px 0 8px 8px;
+      svg {
+        height: 24px;
+        width: 24px;
+        fill: $blue-dark;
+      }
+    }
+
+    .indicator-separator {
+      display: none;
+    }
+  }
+}

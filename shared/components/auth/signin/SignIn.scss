@@ -1,0 +1,21 @@
+.signin {
+  position: relative;
+  background: $blue-gradient;
+  width: 100%;
+  padding: 40px 40px 24px 40px;
+
+  form > div {
+    margin: 24px auto 16px auto;
+
+    @include not-mobile {
+      max-width: 400px;
+    }
+  }
+
+  .submit {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

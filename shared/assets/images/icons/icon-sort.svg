@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Form / Icon / Order light</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Form-/-Icon-/-Order-light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.16">
+        <g id="Icon-/-Filtro">
+            <circle id="Oval-4" cx="16" cy="16" r="16"></circle>
+            <g id="Group-3" transform="translate(7.000000, 7.000000)" fill="#1B2539" fill-rule="nonzero">
+                <path d="M0.771428571,3.5 C0.345380336,3.5 0,3.16421356 0,2.75 C0,2.33578644 0.345380336,2 0.771428571,2 L13.2285714,2 C13.6546197,2 14,2.33578644 14,2.75 C14,3.16421356 13.6546197,3.5 13.2285714,3.5 L0.771428571,3.5 Z" id="Line-3"></path>
+            </g>
+            <g id="Group-3-Copy" transform="translate(7.000000, 13.000000)" fill="#1B2539" fill-rule="nonzero">
+                <path d="M0.771428571,3.5 C0.345380336,3.5 0,3.16421356 0,2.75 C0,2.33578644 0.345380336,2 0.771428571,2 L9.22857143,2 C9.65461966,2 10,2.33578644 10,2.75 C10,3.16421356 9.65461966,3.5 9.22857143,3.5 L0.771428571,3.5 Z" id="Line-3"></path>
+            </g>
+            <g id="Group-3-Copy-2" transform="translate(7.000000, 19.000000)" fill="#1B2539" fill-rule="nonzero">
+                <path d="M0.771428571,3.5 C0.345380336,3.5 0,3.16421356 0,2.75 C0,2.33578644 0.345380336,2 0.771428571,2 L5.22857143,2 C5.65461966,2 6,2.33578644 6,2.75 C6,3.16421356 5.65461966,3.5 5.22857143,3.5 L0.771428571,3.5 Z" id="Line-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

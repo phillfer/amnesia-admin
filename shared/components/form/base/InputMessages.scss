@@ -1,0 +1,47 @@
+.success {
+  :global {
+    .input {
+      color: $blue-dark;
+    }
+  }
+
+  .message {
+    color: $blue-dark;
+  }
+}
+
+.error {
+  :global {
+    .input {
+      border-color: $red;
+    }
+  }
+
+  .message {
+    color: $red;
+  }
+}
+
+.warning {
+  :global {
+    .input {
+      border-color: $yellow-dark;
+    }
+  }
+
+  .message {
+    color: $yellow-dark;
+  }
+}
+
+.message {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+  height: 25px;
+  line-height: 25px;
+  padding-left: 10px;
+  font-family: $proxima-regular;
+  font-size: 11px;
+}

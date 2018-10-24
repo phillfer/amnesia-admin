@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Elementos / Icon / City</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Elementos-/-Icon-/-City" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Element-/-Icon-/-Local">
+            <rect id="bg" fill="#FFFFFF" x="0" y="0" width="70" height="70"></rect>
+            <g id="shape" transform="translate(22.000000, 18.000000)" opacity="0.32">
+                <path d="M13,35 C21.6666667,25.2491582 26,17.9574916 26,13.125 C26,5.87626266 20.1797017,0 13,0 C5.82029825,0 0,5.87626266 0,13.125 C0,17.9574916 4.33333333,25.2491582 13,35 Z" id="Oval-6" stroke="#1B2539" stroke-width="1.5"></path>
+                <circle id="Oval-4" fill="#1B2539" cx="13.5" cy="11.5" r="3.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

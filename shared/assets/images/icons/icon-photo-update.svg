@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Elementos / Icons / Photo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="20" cy="20" r="20"></circle>
+        <filter x="-17.5%" y="-12.5%" width="135.0%" height="135.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Elementos-/-Icons-/-Photo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="change-photo">
+            <g id="bg" fill-rule="nonzero">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#1B2539" xlink:href="#path-1"></use>
+            </g>
+            <g id="Form-/-Icon-/-Camera-/-White" transform="translate(4.000000, 4.000000)" fill="#FFFFFF">
+                <g id="Element-/-Icon-/-Camera" transform="translate(7.000000, 9.000000)">
+                    <g id="photo-camera" fill-rule="nonzero">
+                        <path d="M9,5.4 C7.5087,5.4 6.3,6.60924 6.3,8.1 C6.3,9.5913 7.5087,10.8 9,10.8 C10.49094,10.8 11.7,9.5913 11.7,8.1 C11.7,6.60924 10.49094,5.4 9,5.4 Z M16.2,2.7 L14.04,2.7 C13.743,2.7 13.42296,2.4696 13.32918,2.18772 L12.77082,0.5121 C12.67668,0.2304 12.357,0 12.06,0 L5.94,0 C5.643,0 5.32296,0.2304 5.22918,0.51228 L4.67082,2.1879 C4.57668,2.4696 4.257,2.7 3.96,2.7 L1.8,2.7 C0.81,2.7 0,3.51 0,4.5 L0,12.6 C0,13.59 0.81,14.4 1.8,14.4 L16.2,14.4 C17.19,14.4 18,13.59 18,12.6 L18,4.5 C18,3.51 17.19,2.7 16.2,2.7 Z M9,12.6 C6.51474,12.6 4.5,10.58526 4.5,8.1 C4.5,5.61492 6.51474,3.6 9,3.6 C11.4849,3.6 13.5,5.61492 13.5,8.1 C13.5,10.58526 11.4849,12.6 9,12.6 Z M15.57,5.75874 C15.22224,5.75874 14.94,5.47686 14.94,5.12874 C14.94,4.78098 15.22224,4.49874 15.57,4.49874 C15.91812,4.49874 16.2,4.78098 16.2,5.12874 C16.2,5.47686 15.91794,5.75874 15.57,5.75874 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

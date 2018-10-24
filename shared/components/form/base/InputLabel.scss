@@ -1,0 +1,28 @@
+.input-label {
+  &:focus-within label,
+  &.value label {
+    top: 4px;
+    left: 0;
+    font-size: 12px;
+    @include color-opacity($blue, 0.24);
+
+    &.light label {
+      @include color-opacity($white, 0.24);
+    }
+  }
+
+  &.light label {
+    @include color-opacity($white, 0.16);
+  }
+
+  label {
+    @include color-opacity($blue, 0.16);
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 24px;
+    top: 26px;
+    transition: 0.2s ease all;
+  }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Form / Icon / Linkedin / Light</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Form-/-Icon-/-Linkedin-/-Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.16">
+        <g id="Element-/-Icon-/-Twitter" transform="translate(7.000000, 7.000000)" fill-rule="nonzero">
+            <g id="if_Facebook_194929">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="1.5" cx="9" cy="9" r="9"></circle>
+                <g id="Group" transform="translate(5.000000, 4.000000)" fill="#D8D8D8">
+                    <polygon id="Oval-1-path" points="0 2.66666667 0 8 1.77777778 8 1.77777778 2.66666667"></polygon>
+                    <path d="M0.894017106,0 C0.353422204,0 0,0.384181373 0,0.888581611 C0,1.38253396 0.342976378,1.77777778 0.87350417,1.77777778 L0.88360285,1.77777778 C1.43461204,1.77777778 1.77777778,1.38253396 1.77777778,0.888581611 C1.76752131,0.384181373 1.43461204,0 0.894017106,0 Z" id="Oval-1-path"></path>
+                    <path d="M5.9885523,2.66666667 C5.06101305,2.66666667 4.64573806,3.17243257 4.41387069,3.52723649 L4.41387069,2.78916547 L2.66666667,2.78916547 C2.68969294,3.27812326 2.66666667,8 2.66666667,8 L4.41387069,8 L4.41387069,5.0898401 C4.41387069,4.93410544 4.4252094,4.7787512 4.47140145,4.66725027 C4.59766204,4.35612678 4.88514129,4.03400535 5.36778549,4.03400535 C6.00020495,4.03400535 6.25300528,4.51182686 6.25300528,5.21206227 L6.25300528,7.99986167 L7.99993023,7.99986167 L8,5.01212839 C8,3.41158543 7.13815531,2.66666667 5.9885523,2.66666667 Z" id="Oval-1-path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Form / Icon / Clock</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Form-/-Icon-/-Clock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.32">
+        <g id="Element-/-Icon-/-Relogio" stroke="#1B2539" stroke-width="1.5">
+            <g id="Group-7" transform="translate(8.000000, 8.000000)">
+                <circle id="Oval-2" cx="8" cy="8" r="8"></circle>
+                <polyline id="Line" stroke-linecap="round" points="8 4.5 8 8.5 9.86895413 10.3689541"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

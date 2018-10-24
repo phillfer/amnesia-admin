@@ -1,0 +1,171 @@
+@mixin fadeIn {
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 0.2;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+@mixin fadeOut {
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+}
+
+@mixin fadeInUp {
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translate(0, 50%);
+    }
+
+    70% {
+      opacity: 0.5;
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }
+}
+
+@mixin fadeInDown {
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translate(0, -30%);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }
+}
+
+@mixin increase {
+  @keyframes increase {
+    0% {
+      transform: scaleY(0);
+    }
+
+    100% {
+      transform: scaleY(1);
+    }
+  }
+}
+
+@mixin popUp {
+  @keyframes popUp {
+    0% {
+      transform: scale(0);
+    }
+
+    70% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+}
+
+@mixin slideFromRight {
+  @keyframes slideFromRight {
+    0% {
+      transform: translateX(2000px);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@mixin slideFromBottom {
+  @keyframes slideFromBottom {
+    0% {
+      transform: translateY(1000px);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+}
+
+@mixin slideFromTop {
+  @keyframes slideFromTop {
+    0% {
+      transform: translateY(-200px);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+}
+
+@mixin slideOutToBottom {
+  @keyframes slideOutToBottom {
+    0% {
+      transform: translateY(0);
+    }
+
+    100% {
+      transform: translateY(1000px);
+    }
+  }
+}
+
+@mixin slideOutToTop {
+  @keyframes slideOutToTop {
+    0% {
+      transform: translateY(0);
+    }
+
+    100% {
+      transform: translateY(-200px);
+    }
+  }
+}
+
+@mixin slideOutToRight {
+  @keyframes slideOutToRight {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(2000px);
+    }
+  }
+}
+
+@mixin inputHighlighter {
+  @keyframes inputHighlighter {
+    from {
+      background: #5264ae;
+    }
+    to {
+      width: 0;
+      background: transparent;
+    }
+  }
+}

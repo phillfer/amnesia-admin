@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Elementos / Icon / Establishment</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Elementos-/-Icon-/-Establishment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Element-/-Icon-/-House">
+            <rect id="bg" fill="#FFFFFF" x="0" y="0" width="70" height="70"></rect>
+            <g id="icon-house" transform="translate(18.000000, 18.000000)" stroke="#1B2539" stroke-opacity="0.35" stroke-width="1.5">
+                <path d="M3.53295478,35 L3.53295478,16.4831804 L0,16.4831804 C11.4050633,5.49439348 17.1075949,0 17.1075949,0 C17.1075949,0 22.7383966,5.49439348 34,16.4831804 L30.4895498,16.4831804 L30.4895498,35 L3.53295478,35 Z" id="Path-4"></path>
+            </g>
+        </g>
+    </g>
+</svg>

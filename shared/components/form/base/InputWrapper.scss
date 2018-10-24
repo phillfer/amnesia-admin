@@ -1,0 +1,13 @@
+.input-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 56px;
+  text-align: left;
+  border-bottom: 2px solid;
+  @include border-opacity($blue, 0.08);
+  transition: all 0.2s ease;
+
+  &.light {
+    @include border-opacity($white, 0.08);
+  }
+}

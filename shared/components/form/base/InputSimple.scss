@@ -1,0 +1,18 @@
+.input {
+  input {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: $proxima-medium;
+    color: $blue-dark;
+    background-color: transparent;
+    width: 100%;
+    height: 56px;
+    padding: 16px 28px 0 24px;
+  }
+
+  &.light input {
+    color: $white;
+  }
+}

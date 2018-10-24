@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Form / Icon / Location</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Form-/-Icon-/-Location" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.32">
+        <g id="Element-/-Icon-/-Local">
+            <path d="M16,24 C20,19.5424723 22,16.209139 22,14 C22,10.6862915 19.3137085,8 16,8 C12.6862915,8 10,10.6862915 10,14 C10,16.209139 12,19.5424723 16,24 Z" id="Oval-6" stroke="#1B2539" stroke-width="1.5"></path>
+            <circle id="Oval-4" fill="#1B2539" cx="16" cy="13.5" r="1.5"></circle>
+        </g>
+    </g>
+</svg>
