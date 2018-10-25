@@ -91,7 +91,12 @@ const values = {
     connectSrc: [],
     defaultSrc: [],
     fontSrc: ['fonts.googleapis.com/css', 'fonts.gstatic.com'],
-    imgSrc: ['data:'],
+    imgSrc: [
+      'data:',
+      'localhost:7331',
+      's3-us-west-2.amazonaws.com',
+      'firebasestorage.googleapis.com',
+    ],
     mediaSrc: [],
     manifestSrc: [],
     objectSrc: [],
