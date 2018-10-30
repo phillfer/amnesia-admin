@@ -27,7 +27,6 @@ export default class Admin extends PureComponent {
       .then(docs => {
         const decks = {};
         docs.forEach(doc => (decks[doc.id] = doc.data().cards));
-        console.log('MEU AMIGO', decks);
         this.setState({ ...decks });
       });
   }
@@ -35,7 +34,6 @@ export default class Admin extends PureComponent {
   onFileChange = (event, deckKey, cardIndex) => {
     this.setState({ loading: true });
     const file = event.target.files[0];
-    console.log('EVENT ', file, deckKey, cardIndex);
     const storageRef = firebase.storage().ref();
     storageRef
       .child(`${deckKey}/card${cardIndex}.png`)
