@@ -7,6 +7,8 @@ import update from 'immutability-helper';
 
 import Page from '../common/Page';
 
+const iconClose = require('../../assets/images/icons/icon-close-light.svg');
+
 export default class Admin extends PureComponent {
   state = {
     deck0: [],
@@ -65,7 +67,6 @@ export default class Admin extends PureComponent {
   };
 
   render() {
-    console.log('STATE', this.state);
     return (
       <Page>
         <Helmet>
@@ -73,7 +74,9 @@ export default class Admin extends PureComponent {
         </Helmet>
 
         {this.state.loading && (
-          <p style={{ color: 'white' }}>ATUALIZANDO IMAGEM... </p>
+          <div styleName="uploading">
+            <p>ATUALIZANDO IMAGEM...</p>
+          </div>
         )}
         <div styleName="admin">
           {this.decks.map((deckKey, deckIndex) => {
@@ -82,7 +85,13 @@ export default class Admin extends PureComponent {
               <section key={deckKey}>
                 <h2>Deck do Round {deckIndex + 1}</h2>
                 {deck.map((card, cardIndex) => (
-                  <div key={card.id}>
+                  <div styleName="card" key={card.id}>
+                    <img alt="Carta do baralho" src={card.img} />
+                    <img
+                      alt="ícone fechar"
+                      src={iconClose}
+                      styleName="icon-close"
+                    />
                     <input
                       type="file"
                       accept="image/png"
@@ -90,7 +99,6 @@ export default class Admin extends PureComponent {
                         this.onFileChange(event, deckKey, cardIndex)
                       }
                     />
-                    <img alt="Carta do baralho" src={card.img} />
                   </div>
                 ))}
               </section>
