@@ -1,15 +1,15 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import Helmet from 'react-helmet';
-import './Admin.scss';
 import firebase from 'firebase';
 import 'firebase/storage';
 import update from 'immutability-helper';
+import './Decks.scss';
 
 import Page from '../common/Page';
 
 const iconClose = require('../../assets/images/icons/icon-close-light.svg');
 
-export default class Admin extends PureComponent {
+export default class Decks extends Component {
   state = {
     deck0: [],
     deck1: [],
@@ -67,41 +67,43 @@ export default class Admin extends PureComponent {
   render() {
     return (
       <Page>
-        <Helmet>
-          <title>Amnesia - Gerenciamento de Decks</title>
-        </Helmet>
+        <div>
+          <Helmet>
+            <title>Amnesia - Gerenciamento de Decks</title>
+          </Helmet>
 
-        {this.state.loading && (
-          <div styleName="uploading">
-            <p>ATUALIZANDO IMAGEM...</p>
+          {this.state.loading && (
+            <div styleName="uploading">
+              <p>ATUALIZANDO IMAGEM...</p>
+            </div>
+          )}
+          <div styleName="admin">
+            {this.decks.map((deckKey, deckIndex) => {
+              const deck = this.state[deckKey];
+              return (
+                <section key={deckKey}>
+                  <h2>Deck do Round {deckIndex + 1}</h2>
+                  {deck.map((card, cardIndex) => (
+                    <div styleName="card" key={card.id}>
+                      <img alt="Carta do baralho" src={card.img} />
+                      <img
+                        alt="ícone fechar"
+                        src={iconClose}
+                        styleName="icon-close"
+                      />
+                      <input
+                        type="file"
+                        accept="image/png"
+                        onChange={event =>
+                          this.onFileChange(event, deckKey, cardIndex)
+                        }
+                      />
+                    </div>
+                  ))}
+                </section>
+              );
+            })}
           </div>
-        )}
-        <div styleName="admin">
-          {this.decks.map((deckKey, deckIndex) => {
-            const deck = this.state[deckKey];
-            return (
-              <section key={deckKey}>
-                <h2>Deck do Round {deckIndex + 1}</h2>
-                {deck.map((card, cardIndex) => (
-                  <div styleName="card" key={card.id}>
-                    <img alt="Carta do baralho" src={card.img} />
-                    <img
-                      alt="ícone fechar"
-                      src={iconClose}
-                      styleName="icon-close"
-                    />
-                    <input
-                      type="file"
-                      accept="image/png"
-                      onChange={event =>
-                        this.onFileChange(event, deckKey, cardIndex)
-                      }
-                    />
-                  </div>
-                ))}
-              </section>
-            );
-          })}
         </div>
       </Page>
     );

@@ -2,11 +2,12 @@ import 'normalize.css/normalize.css';
 
 import React from 'react';
 import firebase from 'firebase';
+import './App.scss';
 
 import Head from './Head';
 import Router from './Router';
 import Validate from '../auth/validate/Validate';
-import './App.scss';
+import Header from '../header/Header';
 
 const config = {
   apiKey: 'AIzaSyAhsp_6rizgHRtUAOALh5wqjuF04SI5RQQ',
@@ -22,6 +23,7 @@ firebase.initializeApp(config);
 const App = () => (
   <div>
     <Head />
+    <Header />
     <Router />
     <Validate />
   </div>

@@ -2,11 +2,13 @@ import React from 'react';
 import Logo from './Logo';
 import './Header.scss';
 
+import Menu from './Menu';
+
 function Header() {
   return (
     <div styleName="header">
       <Logo />
-      <h1>Gerenciamento de decks</h1>
+      <Menu />
     </div>
   );
 }
