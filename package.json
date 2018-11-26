@@ -117,6 +117,7 @@
     "react-async-bootstrapper": "2.1.1",
     "react-async-component": "2.0.0",
     "react-dom": "16.5.2",
+    "react-firebaseui": "^3.1.2",
     "react-form": "3.5.6",
     "react-google-tag-manager": "2.2.1",
     "react-helmet": "5.2.0",

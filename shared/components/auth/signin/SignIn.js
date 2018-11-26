@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { withRouter } from 'react-router-dom';
 import './SignIn.scss';
 
-import Page from '../../common/Page';
-import Button from '../../common/Button';
-import Form from '../../form/base/Form';
-import InputEmail from '../../form/default/InputEmail';
-import InputPassword from '../../form/default/InputPassword';
+import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
+import firebase from 'firebase';
 
-export default class SignIn extends Component {
+import Page from '../../common/Page';
+
+export class SignIn extends Component {
   static propTypes = {
     postSignIn: PropTypes.func.isRequired,
     signin: PropTypes.shape({
@@ -16,6 +16,23 @@ export default class SignIn extends Component {
       errors: PropTypes.array,
       data: PropTypes.object,
     }).isRequired,
+  };
+
+  uiConfig = {
+    // Popup signin flow rather than redirect flow.
+    signInFlow: 'popup',
+    signInSuccessUrl: '/admin',
+
+    callbacks: {
+      // Avoid redirects after sign-in.
+      signInSuccessWithAuthResult: result => {
+        console.log('LOGOUU', result);
+        this.props.postSignIn(result.user);
+        this.props.history.replace('admin');
+      },
+    },
+    // We will display Google and Facebook as auth providers.
+    signInOptions: [firebase.auth.EmailAuthProvider.PROVIDER_ID],
   };
 
   handleSubmit(values) {
@@ -27,21 +44,16 @@ export default class SignIn extends Component {
 
     return (
       <Page>
-        <div styleName="signin">
-          <Form onSubmit={v => this.handleSubmit(v)}>
-            <InputEmail light />
-            <InputPassword light />
-            <Button
-              styleName="submit"
-              type="submit"
-              disabled={signin.isFetching}
-              label={signin.isFetching ? 'Entrando' : 'Entrar'}
-              accent
-              big
-            />
-          </Form>
+        <div className={'signin'}>
+          <StyledFirebaseAuth
+            uiCallback={ui => ui.disableAutoSignIn()}
+            uiConfig={this.uiConfig}
+            firebaseAuth={firebase.auth()}
+          />
         </div>
       </Page>
     );
   }
 }
+
+export default withRouter(SignIn);

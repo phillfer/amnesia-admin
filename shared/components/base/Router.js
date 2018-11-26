@@ -18,11 +18,11 @@ function Router() {
     <ScrollToTop>
       <Switch>
         <NotAuthRoute path={routes.REGISTER} component={Register} />
-        <NotAuthRoute path={routes.SIGN_IN} component={SignIn} />
-        <Route path={routes.DECKS} component={Decks} />
-        <Route path={routes.RANKING} component={Ranking} />
+        <Route path={routes.SIGN_IN} component={SignIn} />
+        <PrivateRoute path={routes.DECKS} component={Decks} />
+        <PrivateRoute path={routes.RANKING} component={Ranking} />
         <Redirect from={routes.ADMIN} to={routes.DECKS} />
-        <Redirect from={routes.HOME} to={routes.DECKS} />
+        <Redirect from={routes.HOME} to={routes.SIGN_IN} />
         <Route component={NotFound} />
       </Switch>
     </ScrollToTop>

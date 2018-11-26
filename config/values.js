@@ -87,7 +87,7 @@ const values = {
   // Content Security Policy (CSP)
   // @see server/middleware/security for more info.
   cspExtensions: {
-    childSrc: [],
+    childSrc: ['amnsesia-3a69b.firebaseapp.com', 'www.accountchooser.com'],
     connectSrc: [],
     defaultSrc: [],
     fontSrc: ['fonts.googleapis.com/css', 'fonts.gstatic.com'],
@@ -96,6 +96,7 @@ const values = {
       'localhost:7331',
       's3-us-west-2.amazonaws.com',
       'firebasestorage.googleapis.com',
+      'www.gstatic.com',
     ],
     mediaSrc: [],
     manifestSrc: [],
@@ -105,6 +106,8 @@ const values = {
       // polyfill.
       'cdn.polyfill.io',
       'http://www.googletagmanager.com',
+      'apis.google.com',
+      'www.gstatic.com',
     ],
     styleSrc: ['fonts.googleapis.com/css'],
   },

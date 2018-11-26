@@ -11,15 +11,15 @@ class PrivateRoute extends PureComponent {
   static propTypes = {
     user: PropTypes.shape({
       name: PropTypes.string,
-      id: PropTypes.string,
+      uid: PropTypes.string,
     }),
     shouldValidate: PropTypes.bool.isRequired,
   };
 
   render() {
     const { user, shouldValidate, ...rest } = this.props;
-    if (shouldValidate) return <Loading />;
-    if (user && user.id) return <Route {...rest} />;
+    // if (shouldValidate) return <Loading />;
+    if (user && user.uid) return <Route {...rest} />;
     return <Redirect to={SIGN_IN} />;
   }
 }
