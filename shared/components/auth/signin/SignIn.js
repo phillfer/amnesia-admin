@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
+import firebase from 'firebase';
 import './SignIn.scss';
 
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
-import firebase from 'firebase';
+import Logo from '../../header/Logo';
 
 import Page from '../../common/Page';
 
@@ -44,7 +45,11 @@ export class SignIn extends Component {
 
     return (
       <Page>
-        <div className={'signin'}>
+        <div styleName="signin">
+          <div styleName="logo">
+            <Logo />
+            <h1>Área Administrativa</h1>
+          </div>
           <StyledFirebaseAuth
             uiCallback={ui => ui.disableAutoSignIn()}
             uiConfig={this.uiConfig}

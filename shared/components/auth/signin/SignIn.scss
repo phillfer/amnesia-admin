@@ -1,8 +1,25 @@
 .signin {
-  position: relative;
-  background: $blue-gradient;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $green-dark;
   width: 100%;
   padding: 40px 40px 24px 40px;
+
+  .logo {
+    margin-bottom: 40px;
+
+    img {
+      height: 80px;
+    }
+
+    h1 {
+      color: $green;
+      margin-top: 80px;
+    }
+  }
 
   form > div {
     margin: 24px auto 16px auto;
