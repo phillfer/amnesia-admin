@@ -10,7 +10,7 @@ import { renderToStaticMarkup } from 'react-dom/server';
 
 import HTML from '../../../shared/components/base/Html';
 
-module.exports = function generate(context) {
+export default function generate(context) {
   // const config = context.htmlWebpackPlugin.options.custom.config;
   const ClientConfig = context.htmlWebpackPlugin.options.custom.ClientConfig;
   const html = renderToStaticMarkup(
@@ -19,4 +19,4 @@ module.exports = function generate(context) {
     />,
   );
   return `<!DOCTYPE html>${html}`;
-};
+}
