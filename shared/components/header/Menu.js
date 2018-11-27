@@ -68,6 +68,11 @@ class Menu extends Component {
               Ranking geral
             </Link>
           </div>
+          <div>
+            <Link to={routes.HOME} onClick={() => this.closeMenu()}>
+              Sair
+            </Link>
+          </div>
         </div>
       </div>
     );
