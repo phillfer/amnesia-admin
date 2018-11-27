@@ -27,7 +27,6 @@ export class SignIn extends Component {
     callbacks: {
       // Avoid redirects after sign-in.
       signInSuccessWithAuthResult: result => {
-        console.log('LOGOUU', result);
         this.props.postSignIn(result.user);
         this.props.history.replace('admin');
       },

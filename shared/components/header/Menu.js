@@ -70,7 +70,7 @@ class Menu extends Component {
           </div>
           <div>
             <Link to={routes.HOME} onClick={() => this.closeMenu()}>
-              Sair
+              Sair da conta
             </Link>
           </div>
         </div>

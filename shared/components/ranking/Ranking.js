@@ -28,22 +28,14 @@ export default class Ranking extends Component {
   }
 
   getScoreLabel = score => {
-    switch (score) {
-      case score < 200:
-        return 'Memória Lixo';
-      case score < 500:
-        return 'Memória Medíocre';
-      case score < 1000:
-        return 'Memória Padrão';
-      case score < 1500:
-        return 'Memória Bronze';
-      case score < 2000:
-        return 'Memória Prata';
-      case score < 3000:
-        return 'Memória Gold';
-      default:
-        return 'Memória Platina';
-    }
+    if (!score) return '';
+    if (score < 200) return 'Memória Lixo';
+    if (score < 500) return 'Memória Medíocre';
+    if (score < 1000) return 'Memória Padrão';
+    if (score < 1500) return 'Memória Bronze';
+    if (score < 2000) return 'Memória Prata';
+    if (score < 3000) return 'Memória Gold';
+    return 'Memória Platina';
   };
 
   render() {
@@ -57,6 +49,7 @@ export default class Ranking extends Component {
 
         <div styleName="ranking">
           {users &&
+            users.length > 0 &&
             users.map(user => (
               <div key={user.uid} styleName="user">
                 <div>
